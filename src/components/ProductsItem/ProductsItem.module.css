@@ -1,0 +1,17 @@
+.products_item {
+    width: 287px;
+}
+
+.products_item_title {
+    height: 48px;
+    margin-top: 14px;
+    font-size: 16px;
+    color: #A0A0A0;
+}
+
+.products_item_price {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+}

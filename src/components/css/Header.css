@@ -1,0 +1,26 @@
+.header {
+   padding: 36px 100px;
+}
+
+.header-nav {
+    list-style-type: none;
+    gap: 75px;  
+}
+
+.header-nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+
+    a {
+        color: #000;
+
+        &:hover {
+            color: #0000FF;
+        }
+    }
+}
+
+.header-actions {
+    gap: 45px;
+}

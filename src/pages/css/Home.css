@@ -1,0 +1,203 @@
+.home-main {
+    margin-top: -179px;
+    padding-top: 475px;
+    padding-bottom: 412px;
+    padding-left: 202px;
+    background: #FBEBB5 url("/public/images/rocket-single-seater.png") no-repeat right;
+}
+
+.home-main-title {
+    width: 440px;
+    font-weight: 500;
+    font-size: 64px;
+    color: #000;
+}
+
+.home-main-shop {
+    display: block;
+    width: 121px;
+    margin-top: 35px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #000;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+}
+
+.home-categories {
+    padding-top: 51px;
+    padding-bottom: 59px;
+    padding-left: 100px;
+    gap: 30px;
+    background-color: #FAF4F4;
+}
+
+.home-categories-item {
+    width: 605px;
+    height: 562px;
+    padding-top: 383px;
+    padding-left: 105px;
+
+    &:nth-child(1) {
+        background: url("/public/images/categories1.png") no-repeat;
+    }
+
+    &:nth-child(2) {
+        background: url("/public/images/categories2.png") no-repeat;
+    }
+
+    .categories-item-title {
+        font-weight: 500;
+        font-size: 36px;
+        color: #000;
+    }
+
+    .categories-item-more {
+        display: block;
+        width: 125px;
+        margin-top: 23px;
+        padding-bottom: 13px;
+        border-bottom: 2px solid #000;
+        font-weight: 500;
+        font-size: 24px;
+        color: #000;
+    }
+}
+
+.home-picks {
+    margin-top: 55px;
+}
+
+.home-bl-title {
+    font-weight: 500;
+    font-size: 36px;
+    color: #000;
+}
+
+.home-picks-desc {
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #9F9F9F;
+}
+
+.home-picks-box {
+    margin-top: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.home-picks-more {
+    display: block;
+    width: 104px;
+    margin: 69px auto 0;
+    padding-bottom: 13px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+.home-arrivals {
+    margin-top: 80px;
+    gap: 65px;
+    background-color: #FFF9E5;
+
+    >div:nth-child(2) {
+        text-align: center;
+    }
+}
+
+.home-arrivals-above {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+}
+
+.home-arrivals-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+}
+
+.home-arrivals-order {
+    display: block;
+    width: 255px;
+    margin: 33px auto 0;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid #000;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.home-blogs {
+    margin-top: 55px;
+}
+
+.home-blogs-desc {
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #9F9F9F;
+}
+
+.home-blogs-box {
+    margin-top: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.home-blogs-all {
+    display: block;
+    width: 126px;
+    margin: 75px auto 0;
+    padding-bottom: 19px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+.home-instagram {
+    margin-top: 54px;
+    padding-top: 124px;
+    padding-bottom: 124px;
+    background: url("/public/images/home-instagram-bg.png") no-repeat;
+    text-align: center;
+    color: #000;
+}
+
+.home-instagram-title {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.home-instagram-desc {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.home-instagram-follow {
+    display: block;
+    width: 255px;
+    margin: 18px auto 0;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #FAF4F4;
+    border: 1px solid #FAF4F4;
+    border-radius: 50px;
+    cursor: pointer;
+    filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.1));
+    font-size: 20px;
+    color: #000;
+}
