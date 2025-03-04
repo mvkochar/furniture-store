@@ -1,0 +1,88 @@
+.footer {
+    padding-top: 98px;
+    padding-bottom: 38px;
+    padding-left: 100px;
+    padding-right: 99.99px;
+}
+
+.footer-bar {
+    padding-right: 107.01px;
+}
+
+.footer-address {
+    margin-top: 108px;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.footer-bl-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.footer-bl-list {
+    list-style-type: none;
+    margin-top: 55px;
+
+    li {
+        margin-bottom: 46px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #000;
+
+        a {
+            color: #000;
+
+            &:hover {
+                color: #0000FF;
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.footer-bl-fm {
+    margin-top: 53px;
+
+    input {
+        width: 200px;
+        padding-bottom: 3px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #000;
+        outline: none;
+        font-size: 14px;
+        color: #9F9F9F;
+
+        &::placeholder {
+            color: #9F9F9F;
+        }
+    }
+
+    button {
+        width: 75.01px;
+        margin-left: 11px;
+        padding-bottom: 3px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #000;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #000;
+    }
+}
+
+.footer-rights {
+    margin-top: 48px;
+    padding-top: 35px;
+    padding-left: 2.01px;
+    border-top: 1px solid #D9D9D9;
+    font-size: 16px;
+    color: #000;
+}
