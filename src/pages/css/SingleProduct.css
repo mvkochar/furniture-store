@@ -1,0 +1,264 @@
+.single-breadcrumbs {
+    margin-top: 14px;
+    padding-top: 31px;
+    padding-bottom: 32px;
+    padding-left: 99px;
+    gap: 34px;
+}
+
+.single-breadcrumbs-divider {
+    width: 37px;
+    height: 0px;
+    border: 2px solid #9F9F9F;
+    transform: rotate(90deg);
+}
+
+.single-breadcrumbs-current {
+    font-size: 16px;
+    color: #000;
+}
+
+.single-main {
+    margin-top: 32px;
+    margin-left: 99px;
+    gap: 65px;
+}
+
+.single-main-images {
+    gap: 31px;
+
+    .images-min {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+.single-main-title {
+    font-weight: 400;
+    font-size: 42px;
+    color: #000;
+}
+
+.single-main-price {
+    font-weight: 500;
+    font-size: 24px;
+    color: #9F9F9F;
+}
+
+.single-main-about {
+    margin-top: 10px;
+
+    .about-divider {
+        width: 30px;
+        height: 0px;
+        margin-left: 18px;
+        border: 1px solid #9F9F9F;
+        transform: rotate(90deg);
+    }
+}
+
+.single-main-rating {
+    gap: 6px;
+}
+
+.single-main-review {
+    margin-left: 22px;
+    font-size: 13px;
+    color: #9F9F9F;
+}
+
+.single-main-desc {
+    width: 424px;
+    margin-top: 13px;
+    font-size: 13px;
+    color: #000;
+}
+
+.single-main-info {
+    margin-top: 22px;
+    flex-direction: column;
+    gap: 18px;
+
+    .info-bl-title {
+        margin-bottom: 12px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #9F9F9F;
+    }
+
+    .sizes,
+    .colors {
+        gap: 16px;
+    }
+
+    .sizes-item {
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+        background-color: #FAF4F4;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 13px;
+        text-align: center;
+        color: #000;
+    }
+
+    .sizes-item__active {
+        background-color: #FBEBB5;
+    }
+
+    .colors-item {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+
+        &:nth-child(1) {
+            background-color: #816DFA;
+        }
+
+        &:nth-child(2) {
+            background-color: #000;
+        }
+
+        &:nth-child(3) {
+            background-color: #CDBA7B;
+        }
+
+        &:hover {
+            outline: 1px solid #0000FF;
+        }
+    }
+}
+
+.single-main-actions {
+    margin-top: 32px;
+    gap: 18px;
+
+    .quantity-bl {
+        width: fit-content;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 12px;
+        gap: 35px;
+        border: 1px solid #9F9F9F;
+        border-radius: 10px;
+
+        button:disabled {
+            opacity: .5;
+        }
+    }
+
+    .quantity-num {
+        font-weight: 500;
+        font-size: 16px;
+        color: #000;
+    }
+}
+
+.single-main-cart {
+    display: block;
+    width: 215px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000;
+}
+
+.single-main-line {
+    width: 605.01px;
+    height: 0px;
+    margin-top: 60px;
+    border: 1px solid #D9D9D9;
+}
+
+.single-main-details {
+    flex-direction: column;
+    margin-top: 41px;
+    gap: 12px;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.single-main-social  {
+    gap: 25px;
+}
+
+.single-content {
+    margin-top: 56px;
+    padding-top: 48px;
+    padding-bottom: 65px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.single-content-tabs {
+    width:  fit-content;
+    margin: 0 auto;
+    gap: 53px;
+
+    .tabs-btn {
+        display: block;
+        width: fit-content;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        color: #9F9F9F;
+    }
+    
+    .tabs-btn__active {
+        color: #000;
+    }
+}
+
+.single-content-text {
+    width: 1026px;
+    margin: 37px auto 0;
+    flex-direction: column;
+    gap: 30px;
+    color: #9F9F9F;
+}
+
+.single-content-images {
+    width: fit-content;
+    margin: 36px auto 0;
+    gap: 29px;
+}
+
+.single-related {
+    margin-top: 55px;
+}
+
+.single-related-title {
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+}
+
+.single-related-box {
+    margin-top: 26px;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.single-related-more {
+    display: block;
+    width: 115px;
+    margin: 93px auto 0;
+    padding-bottom: 19px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid currentColor;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}

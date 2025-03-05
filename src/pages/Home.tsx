@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { BlogsItem, BlogsList, ProductsItem, ProductsList } from '../components'
 import './css/Home.css'
 
@@ -6,7 +7,7 @@ const Home = () => {
     <>
       <main className='home-main'>
         <h1 className="home-main-title">Rocket single seater</h1>
-        <a href="" className="home-main-shop">Shop Now</a>
+        <Link to="/shop" className="home-main-shop">Shop Now</Link>
       </main>
       <section className='home-categories d-f'>
         <div className="home-categories-item">
@@ -43,7 +44,7 @@ const Home = () => {
         <div>
           <h4 className="home-arrivals-above">New Arrivals</h4>
           <h2 className="home-arrivals-title">Asgaard sofa</h2>
-          <a href="" className="home-arrivals-order">Order Now</a>
+          <Link to="/single-product" className="home-arrivals-order">Order Now</Link>
         </div>
       </section>
       <section className='home-blogs'>
