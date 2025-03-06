@@ -1,8 +1,19 @@
 import { Link } from 'react-router-dom'
 import { BlogsItem, BlogsList, ProductsItem, ProductsList } from '../components'
 import './css/Home.css'
+import React from 'react'
 
 const Home = () => {
+  const [morePicks, setMorePicks] = React.useState(false)
+
+  const handlePicks = () => {
+    setMorePicks((prevState) => {
+      return (
+        !prevState
+      )
+    })
+  }
+
   return (
     <>
       <main className='home-main'>
@@ -27,7 +38,7 @@ const Home = () => {
         </p>
         <div className="home-picks-box d-f jc-sb">
           {
-            ProductsList.filter((elem) => elem.id < 5).map((product) => {
+            ProductsList.filter((elem) => elem.id < (morePicks ? 9 : 5)).map((product) => {
               return (
                 <ProductsItem
                   key={product.id}
@@ -37,7 +48,7 @@ const Home = () => {
             })
           }
         </div>
-        <button className='home-picks-more'>View More</button>
+        <button className='home-picks-more' onClick={handlePicks}>{morePicks ? 'View Less' : 'View More'}</button>
       </section>
       <section className='home-arrivals d-f align-center'>
         <div><img src="/images/asgaard-sofa.png" alt="asgaard-sofa" /></div>
