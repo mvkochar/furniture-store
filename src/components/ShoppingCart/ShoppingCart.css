@@ -1,0 +1,79 @@
+.shopping-title {
+    width: 287px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #D9D9D9;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.shopping-box {
+    margin-top: 42px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shopping-item-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.shopping-item-info {
+    gap: 15px;
+}
+
+.shoping-item-quantity {
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+}
+
+.shopping-item-sign {
+    font-weight: 300;
+    font-size: 12px;
+    color: #000;
+}
+
+.shopping-item-price {
+    font-weight: 500;
+    font-size: 12px;
+    color: #B88E2F;
+}
+
+.shopping-subtotal {
+    gap: 101px;
+}
+
+.shopping-subtotal-title {
+    font-size: 16px;
+    color: #000;
+}
+
+.shopping-subtotal-value {
+    font-weight: 600;
+    font-size: 16px;
+    color: #B88E2F;
+}
+
+.shopping-actions {
+    margin-top: 41px;
+    margin-left: -31px;
+    margin-right: -31px;
+    padding-top: 26px;
+    padding-left: 27px;
+    border-top: 1px solid #D9D9D9;
+    gap: 28px;
+
+    a {
+        display: block;
+        width: 131px;
+        padding-top: 7px;
+        padding-bottom: 8px;
+        border: 1px solid currentColor;
+        border-radius: 50px;
+        font-size: 12px;
+        text-align: center;
+        color: #000;
+    }
+}

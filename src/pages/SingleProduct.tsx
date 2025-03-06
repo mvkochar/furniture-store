@@ -1,5 +1,5 @@
 import React from 'react'
-import { BasicBreadcrumbs, ProductsItem, ProductsList } from '../components'
+import { BasicBreadcrumbs, ProductsItem, ProductsList, ShoppingCart } from '../components'
 import './css/SingleProduct.css'
 
 const SingleProduct = () => {
@@ -33,7 +33,7 @@ const SingleProduct = () => {
     return (
         <>
             <div className="single-breadcrumbs d-f align-center">
-                <BasicBreadcrumbs />
+                <BasicBreadcrumbs activePage='Shop' />
                 <div style={{ marginTop: "4px" }}>
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="black" />
@@ -127,7 +127,7 @@ const SingleProduct = () => {
                                 </svg>
                             </button>
                         </div>
-                        <button className='single-main-cart'>Add To Cart</button>
+                        <ShoppingCart/>
                     </div>
                     <div className="single-main-line"></div>
                     <div className="single-main-details d-f">

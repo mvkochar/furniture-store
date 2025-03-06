@@ -1,4 +1,4 @@
-import { BasicBreadcrumbs, ProductsItem, ProductsList } from '../components'
+import { BasicBreadcrumbs, ProductsItem, ProductsList, ShopFeatures } from '../components'
 import './css/Shop.css'
 
 const Shop = () => {
@@ -8,7 +8,7 @@ const Shop = () => {
                 <div><img src="/images/house-logo.png" alt="house-logo" /></div>
                 <h1 className="shop-main-title">Shop</h1>
                 <div className="shop-main-breadcrumbs">
-                    <BasicBreadcrumbs />
+                    <BasicBreadcrumbs activePage='Shop' />
                 </div>
             </main>
             <section className="shop-control d-f jc-sb align-center">
@@ -58,26 +58,7 @@ const Shop = () => {
                 <button className='pagination-btn'>3</button>
                 <button className='pagination-btn'>Next</button>
             </div>
-            <section className='shop-features d-f jc-sb'>
-                <dl>
-                    <dt>Free Delivery</dt>
-                    <dd>
-                        For all oders over $50, consectetur adipim scing elit.
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>90 Days Return</dt>
-                    <dd>
-                        If goods have problems, consectetur adipim scing elit.
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>Secure Payment</dt>
-                    <dd>
-                        100% secure payment, consectetur adipim scing elit.
-                    </dd>
-                </dl>
-            </section>
+            <ShopFeatures/>
         </>
     )
 }

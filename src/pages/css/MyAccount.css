@@ -1,0 +1,128 @@
+.account-main {
+    padding-top: 61px;
+    padding-bottom: 97px;
+    background: url("/public/images/account-main-bg.png") no-repeat;
+    text-align: center;
+}
+
+.account-main-title {
+    margin-top: -16px;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000;
+}
+
+.account-main-breadcrumbs {
+    width: fit-content;
+    margin: 1px auto 0;
+}
+
+.account-sign {
+    width: 608px;
+    margin: 63px auto 0;
+    padding-left: 76px;
+}
+
+.account-sign-title {
+   font-weight: 600;
+   font-size: 36px;
+   color: #000; 
+}
+
+.account-sign-fm {
+    margin-top: 36px;
+
+    .input-bl, .register-bl {
+        label, input {
+            display: block;
+        }
+
+        label {
+            font-weight: 500;
+            font-size: 16px;
+            color: #000;
+        }
+
+        input {
+            width: 423px;
+            height: 75px;
+            margin-top: 22px;
+            padding-top: 8;
+            padding-left: 16px;
+            background-color: transparent;
+            border: 1px solid #9F9F9F;
+            border-radius: 10px;
+            outline: none;
+            font-size: 16px;
+            color: #000;
+        }
+    }
+
+    .input-bl {
+        margin-bottom: 36px;
+    }
+
+    .input-bl-last {
+        margin-bottom: 0;
+    }
+
+    .register-note {
+        width: 453px;
+        margin-top: 36px;
+        flex-direction: column;
+        gap: 18px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #000;
+
+        a {
+            font-weight: 600;
+            color: #000;
+        }
+    }
+
+    .check-bl {
+        margin-top: 42px;
+        gap: 21px;
+
+        input {
+            display: block;
+            width: 30px;
+            height: 27px;
+        }
+
+        label {
+            display: block;
+            font-size: 16px;
+            color: #000;
+        }
+    }
+
+    .control-bl {
+        margin-top: 36px;
+        gap: 31px;
+
+        button {
+            display: block;
+            background-color: transparent;
+            cursor: pointer;
+            color: #000;
+
+            &:nth-child(1) {
+                width: 215px;
+                padding-top: 17px;
+                padding-bottom: 17px;
+                border: 1px solid currentColor;
+                border-radius: 15px;
+                font-size: 20px;         
+            }
+
+            &:nth-child(2) {
+                border: none;
+                font-weight: 300;
+                font-size: 16px;
+            }
+        }
+    }
+    
+}
