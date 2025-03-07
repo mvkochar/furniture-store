@@ -2,6 +2,7 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import './ShoppingCart.css'
+import { Link } from 'react-router-dom';
 
 const style = {
     position: 'absolute',
@@ -59,7 +60,7 @@ const ShoppingCart = () => {
                     </div>
                     <div className="shopping-actions d-f">
                         <a href="">View Cart</a>
-                        <a href="">Checkout</a>
+                        <Link to="/checkout">Checkout</Link>
                     </div>
                 </Box>
             </Modal>
