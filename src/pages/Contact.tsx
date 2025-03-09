@@ -61,7 +61,7 @@ const Contact = () => {
                         <input type="email" name='contactEmail' id='contactEmail' placeholder='Abc@def.com'/>
                     </div>
                     <div className="input-bl">
-                        <label htmlFor="">Subject</label>
+                        <label htmlFor="contactSubject">Subject</label>
                         <input type="text" name='contactSubject' id='contactSubject' placeholder='This is an optional' />
                     </div>
                     <div className="input-bl input-bl-last">
