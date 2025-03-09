@@ -59,7 +59,7 @@ const ShoppingCart = () => {
                         </div>
                     </div>
                     <div className="shopping-actions d-f">
-                        <a href="">View Cart</a>
+                        <Link to="/cart">View Cart</Link>
                         <Link to="/checkout">Checkout</Link>
                     </div>
                 </Box>

@@ -1,0 +1,128 @@
+.contact-main {
+    padding-top: 61px;
+    padding-bottom: 97px;
+    background: url("/images/contact-main-bg.png") no-repeat;
+    text-align: center;
+}
+
+.contact-main-title {
+    margin-top: -16px;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000;
+}
+
+.contact-main-breadcrumbs {
+    width: fit-content;
+    margin: 1px auto 0;
+}
+
+.contact-touch {
+    margin-top: 98px;
+    text-align: center;
+}
+
+.contact-touch-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+}
+
+.contact-touch-desc {
+    width: 644px;
+    margin: 7px auto 0;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.contact-content {
+    margin-top: 82px;
+    margin-left: 191px;
+    gap: 104px;
+}
+
+.contact-info {
+    width: 393px;
+    height: fit-content;
+    padding-top: 58px;
+    padding-bottom: 71px;
+    padding-left: 54px;
+    padding-right: 75px;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.contact-info-item {
+    gap: 30px;
+
+    dl {
+        color: #000;
+
+        dt {
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        dd {
+            font-size: 16px;
+        }
+    }
+}
+
+.contact-fm {
+    margin-top: 51px;
+
+    .input-bl {
+        margin-bottom: 36px;
+    }
+
+    .input-bl-last {
+        margin-bottom: 0;
+    }
+
+    label, input, textarea {
+        display: block;
+    }
+
+    label {
+        margin-bottom: 22px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #000;
+    }
+
+    input, textarea {
+        width: 527px;
+        padding-top: 26px;
+        padding-left: 30px;
+        background-color: transparent;
+        border: 1px soid currentColor;
+        border-radius: 10px;
+        outline: none;
+        font-size: 16px;
+        color: #9F9F9F;
+    }
+
+    input {
+        padding-bottom: 26px;
+    }
+
+    textarea {
+        height: 120px;
+        resize: none;
+    }
+
+    button {
+        display: block;
+        width: 237px;
+        margin-top: 49px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: transparent;
+        border: 1px solid currentColor;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #000;
+    }
+}

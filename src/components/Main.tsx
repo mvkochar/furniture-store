@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { Checkout, Home, MyAccount, Shop, SingleProduct } from "../pages"
+import { Cart, Checkout, Contact, Home, MyAccount, Shop, SingleProduct } from "../pages"
 
 const Main = () => {
   return (
@@ -23,6 +23,14 @@ const Main = () => {
         <Route
           path="checkout"
           element={<Checkout/>}
+        />
+        <Route
+          path="cart"
+          element={<Cart/>}
+        />
+        <Route
+          path="contact"
+          element={<Contact/>}
         />
     </Routes>
   )
