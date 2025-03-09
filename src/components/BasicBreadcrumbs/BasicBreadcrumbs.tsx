@@ -1,7 +1,8 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Link from '@mui/material/Link';
+import { Link } from 'react-router-dom';
+
 
 type BasicBreadcrumbsProps = {
   activePage: string
@@ -16,7 +17,7 @@ function BasicBreadcrumbs({activePage}:BasicBreadcrumbsProps) {
   return (
     <div role="presentation" onClick={handleClick}>
       <Breadcrumbs aria-label="breadcrumb">
-        <Link underline="hover" color="text.primary" href="/">
+        <Link  to="/" style={{fontSize: "16px", fontWeight: 500, color: "black"}}>
           Home
         </Link>
         <Typography sx={{ color: 'inherit' }}>{activePage}</Typography>
