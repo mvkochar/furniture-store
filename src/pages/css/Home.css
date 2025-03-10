@@ -161,13 +161,14 @@
     width: 126px;
     margin: 75px auto 0;
     padding-bottom: 19px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #000;
-    cursor: pointer;
+    border-bottom: 2px solid currentColor;
     font-weight: 500;
     font-size: 20px;
     color: #000;
+
+    &:hover {
+        color: #0000FF;
+    }
 }
 
 .home-instagram {

@@ -73,7 +73,7 @@ const Home = () => {
             })
           }
         </div>
-        <button className='home-blogs-all'>View All Post</button>
+        <Link to='/blog' className='home-blogs-all'>View All Post</Link>
       </section>
       <section className='home-instagram'>
         <h2 className="home-instagram-title">Our Instagram</h2>

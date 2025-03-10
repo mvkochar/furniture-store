@@ -14,8 +14,8 @@ const Footer = () => {
           <ul className="footer-bl-list">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/shop">Shop</Link></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
+            <li><Link to="/blog">Blog</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
         <div>
